@@ -1,6 +1,5 @@
 #!/bin/bash
 
-touch /var/log/cron
 crontab cron-every-minute
 service cron start
 
