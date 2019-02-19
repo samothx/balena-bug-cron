@@ -1,0 +1,11 @@
+FROM balenalib/%%RESIN_MACHINE_NAME%%-debian:stretch-build
+
+RUN apt-get update && apt-get install -yq --no-install-recommends cron
+
+WORKDIR /opt
+
+COPY . /opt
+
+CMD ["/opt/loop.sh"]
+
+
