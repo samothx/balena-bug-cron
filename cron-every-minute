@@ -1,2 +1,2 @@
-* * * * * root date >> /tmp/date.txt
+* * * * * root /bin/date >> /tmp/date.txt
 

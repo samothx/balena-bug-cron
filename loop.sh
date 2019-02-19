@@ -4,6 +4,6 @@ service cron start
 
 while true
 do
-	echo "Sleep..."
+	ls -la /tmp
 	sleep 60
 done
