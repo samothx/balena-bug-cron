@@ -1,5 +1,7 @@
 #!/bin/bash
 
+service cron start
+
 while true
 do
 	echo "Sleep..."
