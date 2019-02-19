@@ -1,5 +1,6 @@
 #!/bin/bash
 
+crontab cron-every-minute
 service cron start
 
 while true

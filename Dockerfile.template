@@ -5,7 +5,5 @@ RUN apt-get update && apt-get install -yq --no-install-recommends cron
 WORKDIR /opt
 
 COPY . /opt
-COPY cron-every-minute /etc/cron.d/
-RUN chmod 0644 /etc/cron.d/cron-every-minute
 
 CMD ["/opt/loop.sh"]
