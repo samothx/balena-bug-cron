@@ -1,4 +1,4 @@
-FROM balenalib/%%RESIN_MACHINE_NAME%%-debian:stretch-build
+FROM balenalib/%%RESIN_MACHINE_NAME%%-debian:jessie-build
 
 RUN apt-get update && apt-get install -yq --no-install-recommends cron
 
